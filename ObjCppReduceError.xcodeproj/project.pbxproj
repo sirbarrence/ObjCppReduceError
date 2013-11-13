@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A4ED1281832F9690042B115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4ED1271832F9690042B115 /* Foundation.framework */; };
+		5A4ED12A1832F9690042B115 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4ED1291832F9690042B115 /* CoreGraphics.framework */; };
+		5A4ED12C1832F9690042B115 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4ED12B1832F9690042B115 /* UIKit.framework */; };
+		5A4ED1321832F9690042B115 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A4ED1301832F9690042B115 /* InfoPlist.strings */; };
+		5A4ED1341832F9690042B115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4ED1331832F9690042B115 /* main.m */; };
+		5A4ED1381832F9690042B115 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4ED1371832F9690042B115 /* AppDelegate.m */; };
+		5A4ED13B1832F9690042B115 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4ED1391832F9690042B115 /* Main_iPhone.storyboard */; };
+		5A4ED13E1832F9690042B115 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4ED13C1832F9690042B115 /* Main_iPad.storyboard */; };
+		5A4ED1411832F9690042B115 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4ED1401832F9690042B115 /* ViewController.m */; };
+		5A4ED1431832F9690042B115 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4ED1421832F9690042B115 /* Images.xcassets */; };
+		5A4ED14A1832F9690042B115 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4ED1491832F9690042B115 /* XCTest.framework */; };
+		5A4ED14B1832F9690042B115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4ED1271832F9690042B115 /* Foundation.framework */; };
+		5A4ED14C1832F9690042B115 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4ED12B1832F9690042B115 /* UIKit.framework */; };
+		5A4ED1541832F9690042B115 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A4ED1521832F9690042B115 /* InfoPlist.strings */; };
+		5A4ED1561832F9690042B115 /* ObjCppReduceErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4ED1551832F9690042B115 /* ObjCppReduceErrorTests.m */; };
+		5A4ED1791832FA4D0042B115 /* libReactiveCocoa-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4ED16E1832FA370042B115 /* libReactiveCocoa-iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A4ED14D1832F9690042B115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4ED11C1832F9690042B115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4ED1231832F9690042B115;
+			remoteInfo = ObjCppReduceError;
+		};
+		5A4ED16B1832FA370042B115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4ED15F1832FA360042B115 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88037F8315056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		5A4ED16D1832FA370042B115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4ED15F1832FA360042B115 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		5A4ED16F1832FA370042B115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4ED15F1832FA360042B115 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
+			remoteInfo = ReactiveCocoaTests;
+		};
+		5A4ED1711832FA370042B115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4ED15F1832FA360042B115 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FAF5223174D4C2000CAC810;
+			remoteInfo = "ReactiveCocoaTests-iOS";
+		};
+		5A4ED1731832FA370042B115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4ED15F1832FA360042B115 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F412177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHost";
+		};
+		5A4ED1751832FA370042B115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4ED15F1832FA360042B115 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F430177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHostTests";
+		};
+		5A4ED1771832FA370042B115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4ED15F1832FA360042B115 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D05AD39417F2D56F0080895B;
+			remoteInfo = "ReactiveCocoa-Mac";
+		};
+		5A4ED17A1832FB780042B115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4ED15F1832FA360042B115 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F440AA153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A4ED1241832F9690042B115 /* ObjCppReduceError.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCppReduceError.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4ED1271832F9690042B115 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A4ED1291832F9690042B115 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A4ED12B1832F9690042B115 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A4ED12F1832F9690042B115 /* ObjCppReduceError-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCppReduceError-Info.plist"; sourceTree = "<group>"; };
+		5A4ED1311832F9690042B115 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A4ED1331832F9690042B115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A4ED1351832F9690042B115 /* ObjCppReduceError-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCppReduceError-Prefix.pch"; sourceTree = "<group>"; };
+		5A4ED1361832F9690042B115 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A4ED1371832F9690042B115 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A4ED13A1832F9690042B115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5A4ED13D1832F9690042B115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		5A4ED13F1832F9690042B115 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A4ED1401832F9690042B115 /* ViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = ViewController.m; sourceTree = "<group>"; };
+		5A4ED1421832F9690042B115 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A4ED1481832F9690042B115 /* ObjCppReduceErrorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCppReduceErrorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4ED1491832F9690042B115 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5A4ED1511832F9690042B115 /* ObjCppReduceErrorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCppReduceErrorTests-Info.plist"; sourceTree = "<group>"; };
+		5A4ED1531832F9690042B115 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A4ED1551832F9690042B115 /* ObjCppReduceErrorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCppReduceErrorTests.m; sourceTree = "<group>"; };
+		5A4ED15F1832FA360042B115 /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4ED1211832F9690042B115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4ED1791832FA4D0042B115 /* libReactiveCocoa-iOS.a in Frameworks */,
+				5A4ED12A1832F9690042B115 /* CoreGraphics.framework in Frameworks */,
+				5A4ED12C1832F9690042B115 /* UIKit.framework in Frameworks */,
+				5A4ED1281832F9690042B115 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4ED1451832F9690042B115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4ED14A1832F9690042B115 /* XCTest.framework in Frameworks */,
+				5A4ED14C1832F9690042B115 /* UIKit.framework in Frameworks */,
+				5A4ED14B1832F9690042B115 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4ED11B1832F9690042B115 = {
+			isa = PBXGroup;
+			children = (
+				5A4ED12D1832F9690042B115 /* ObjCppReduceError */,
+				5A4ED14F1832F9690042B115 /* ObjCppReduceErrorTests */,
+				5A4ED1261832F9690042B115 /* Frameworks */,
+				5A4ED1251832F9690042B115 /* Products */,
+				5A4ED15F1832FA360042B115 /* ReactiveCocoa.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		5A4ED1251832F9690042B115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4ED1241832F9690042B115 /* ObjCppReduceError.app */,
+				5A4ED1481832F9690042B115 /* ObjCppReduceErrorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4ED1261832F9690042B115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A4ED1271832F9690042B115 /* Foundation.framework */,
+				5A4ED1291832F9690042B115 /* CoreGraphics.framework */,
+				5A4ED12B1832F9690042B115 /* UIKit.framework */,
+				5A4ED1491832F9690042B115 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A4ED12D1832F9690042B115 /* ObjCppReduceError */ = {
+			isa = PBXGroup;
+			children = (
+				5A4ED1361832F9690042B115 /* AppDelegate.h */,
+				5A4ED1371832F9690042B115 /* AppDelegate.m */,
+				5A4ED1391832F9690042B115 /* Main_iPhone.storyboard */,
+				5A4ED13C1832F9690042B115 /* Main_iPad.storyboard */,
+				5A4ED13F1832F9690042B115 /* ViewController.h */,
+				5A4ED1401832F9690042B115 /* ViewController.m */,
+				5A4ED1421832F9690042B115 /* Images.xcassets */,
+				5A4ED12E1832F9690042B115 /* Supporting Files */,
+			);
+			path = ObjCppReduceError;
+			sourceTree = "<group>";
+		};
+		5A4ED12E1832F9690042B115 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A4ED12F1832F9690042B115 /* ObjCppReduceError-Info.plist */,
+				5A4ED1301832F9690042B115 /* InfoPlist.strings */,
+				5A4ED1331832F9690042B115 /* main.m */,
+				5A4ED1351832F9690042B115 /* ObjCppReduceError-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A4ED14F1832F9690042B115 /* ObjCppReduceErrorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4ED1551832F9690042B115 /* ObjCppReduceErrorTests.m */,
+				5A4ED1501832F9690042B115 /* Supporting Files */,
+			);
+			path = ObjCppReduceErrorTests;
+			sourceTree = "<group>";
+		};
+		5A4ED1501832F9690042B115 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A4ED1511832F9690042B115 /* ObjCppReduceErrorTests-Info.plist */,
+				5A4ED1521832F9690042B115 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A4ED1601832FA360042B115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4ED16C1832FA370042B115 /* ReactiveCocoa.framework */,
+				5A4ED16E1832FA370042B115 /* libReactiveCocoa-iOS.a */,
+				5A4ED1701832FA370042B115 /* ReactiveCocoaTests.octest */,
+				5A4ED1721832FA370042B115 /* ReactiveCocoaTests-iOS.octest */,
+				5A4ED1741832FA370042B115 /* ReactiveCocoa-iOS-UIKitTestHost.app */,
+				5A4ED1761832FA370042B115 /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */,
+				5A4ED1781832FA370042B115 /* libReactiveCocoa-Mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A4ED1231832F9690042B115 /* ObjCppReduceError */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4ED1591832F9690042B115 /* Build configuration list for PBXNativeTarget "ObjCppReduceError" */;
+			buildPhases = (
+				5A4ED1201832F9690042B115 /* Sources */,
+				5A4ED1211832F9690042B115 /* Frameworks */,
+				5A4ED1221832F9690042B115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4ED17B1832FB780042B115 /* PBXTargetDependency */,
+			);
+			name = ObjCppReduceError;
+			productName = ObjCppReduceError;
+			productReference = 5A4ED1241832F9690042B115 /* ObjCppReduceError.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A4ED1471832F9690042B115 /* ObjCppReduceErrorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4ED15C1832F9690042B115 /* Build configuration list for PBXNativeTarget "ObjCppReduceErrorTests" */;
+			buildPhases = (
+				5A4ED1441832F9690042B115 /* Sources */,
+				5A4ED1451832F9690042B115 /* Frameworks */,
+				5A4ED1461832F9690042B115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4ED14E1832F9690042B115 /* PBXTargetDependency */,
+			);
+			name = ObjCppReduceErrorTests;
+			productName = ObjCppReduceErrorTests;
+			productReference = 5A4ED1481832F9690042B115 /* ObjCppReduceErrorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A4ED11C1832F9690042B115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "XYZ Corp";
+				TargetAttributes = {
+					5A4ED1471832F9690042B115 = {
+						TestTargetID = 5A4ED1231832F9690042B115;
+					};
+				};
+			};
+			buildConfigurationList = 5A4ED11F1832F9690042B115 /* Build configuration list for PBXProject "ObjCppReduceError" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A4ED11B1832F9690042B115;
+			productRefGroup = 5A4ED1251832F9690042B115 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5A4ED1601832FA360042B115 /* Products */;
+					ProjectRef = 5A4ED15F1832FA360042B115 /* ReactiveCocoa.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5A4ED1231832F9690042B115 /* ObjCppReduceError */,
+				5A4ED1471832F9690042B115 /* ObjCppReduceErrorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5A4ED16C1832FA370042B115 /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = 5A4ED16B1832FA370042B115 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5A4ED16E1832FA370042B115 /* libReactiveCocoa-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-iOS.a";
+			remoteRef = 5A4ED16D1832FA370042B115 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5A4ED1701832FA370042B115 /* ReactiveCocoaTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveCocoaTests.octest;
+			remoteRef = 5A4ED16F1832FA370042B115 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5A4ED1721832FA370042B115 /* ReactiveCocoaTests-iOS.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoaTests-iOS.octest";
+			remoteRef = 5A4ED1711832FA370042B115 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5A4ED1741832FA370042B115 /* ReactiveCocoa-iOS-UIKitTestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ReactiveCocoa-iOS-UIKitTestHost.app";
+			remoteRef = 5A4ED1731832FA370042B115 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5A4ED1761832FA370042B115 /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-iOS-UIKitTestHostTests.octest";
+			remoteRef = 5A4ED1751832FA370042B115 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5A4ED1781832FA370042B115 /* libReactiveCocoa-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-Mac.a";
+			remoteRef = 5A4ED1771832FA370042B115 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4ED1221832F9690042B115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4ED13E1832F9690042B115 /* Main_iPad.storyboard in Resources */,
+				5A4ED1431832F9690042B115 /* Images.xcassets in Resources */,
+				5A4ED13B1832F9690042B115 /* Main_iPhone.storyboard in Resources */,
+				5A4ED1321832F9690042B115 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4ED1461832F9690042B115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4ED1541832F9690042B115 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4ED1201832F9690042B115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4ED1411832F9690042B115 /* ViewController.m in Sources */,
+				5A4ED1381832F9690042B115 /* AppDelegate.m in Sources */,
+				5A4ED1341832F9690042B115 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4ED1441832F9690042B115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4ED1561832F9690042B115 /* ObjCppReduceErrorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A4ED14E1832F9690042B115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4ED1231832F9690042B115 /* ObjCppReduceError */;
+			targetProxy = 5A4ED14D1832F9690042B115 /* PBXContainerItemProxy */;
+		};
+		5A4ED17B1832FB780042B115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReactiveCocoa-iOS";
+			targetProxy = 5A4ED17A1832FB780042B115 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A4ED1301832F9690042B115 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4ED1311832F9690042B115 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A4ED1391832F9690042B115 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4ED13A1832F9690042B115 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5A4ED13C1832F9690042B115 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4ED13D1832F9690042B115 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5A4ED1521832F9690042B115 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4ED1531832F9690042B115 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A4ED1571832F9690042B115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A4ED1581832F9690042B115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A4ED15A1832F9690042B115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjCppReduceError/ObjCppReduceError-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
+				);
+				INFOPLIST_FILE = "ObjCppReduceError/ObjCppReduceError-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A4ED15B1832F9690042B115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjCppReduceError/ObjCppReduceError-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
+				);
+				INFOPLIST_FILE = "ObjCppReduceError/ObjCppReduceError-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5A4ED15D1832F9690042B115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjCppReduceError.app/ObjCppReduceError";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjCppReduceError/ObjCppReduceError-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjCppReduceErrorTests/ObjCppReduceErrorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5A4ED15E1832F9690042B115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjCppReduceError.app/ObjCppReduceError";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjCppReduceError/ObjCppReduceError-Prefix.pch";
+				INFOPLIST_FILE = "ObjCppReduceErrorTests/ObjCppReduceErrorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4ED11F1832F9690042B115 /* Build configuration list for PBXProject "ObjCppReduceError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4ED1571832F9690042B115 /* Debug */,
+				5A4ED1581832F9690042B115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4ED1591832F9690042B115 /* Build configuration list for PBXNativeTarget "ObjCppReduceError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4ED15A1832F9690042B115 /* Debug */,
+				5A4ED15B1832F9690042B115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4ED15C1832F9690042B115 /* Build configuration list for PBXNativeTarget "ObjCppReduceErrorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4ED15D1832F9690042B115 /* Debug */,
+				5A4ED15E1832F9690042B115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A4ED11C1832F9690042B115 /* Project object */;
+}
