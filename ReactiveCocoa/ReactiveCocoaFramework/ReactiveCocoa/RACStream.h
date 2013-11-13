@@ -167,7 +167,7 @@ typedef RACStream * (^RACStreamBindBlock)(id value, BOOL *stop);
 ///               return value must be an object. This argument cannot be nil.
 ///
 /// Returns a new stream of reduced tuple values.
-- (instancetype)reduceEach:(id (^)())reduceBlock;
+- (instancetype)reduceEach:(id (^)(id firstValue, ...))reduceBlock;
 
 /// Returns a stream consisting of `value`, followed by the values in the
 /// receiver.
